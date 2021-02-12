@@ -63,9 +63,9 @@ console.log('Balance after deposit:', myAccount.balance);
 console.log(myAccount);
 console.log(t1);
 
-// t2 = new Withdrawal(50.25, myAccount);
-// t2.commit();
-// // console.log('Transaction 2:', t2);
-// console.log('Balance after withdrawal:', myAccount.balance);
+t2 = new Withdrawal(50.25, myAccount);
+t2.commit();
+// console.log('Transaction 2:', t2);
+console.log('Balance after withdrawal:', myAccount.balance);
 
 
